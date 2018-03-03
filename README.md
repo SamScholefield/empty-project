@@ -3,21 +3,30 @@
 An empty project setup for quick start Angular 5 development. Incorporates the following:
 
 ### Angular Material
+
 * Components are loaded from material.module.ts
 * Custom theming via custom-theme.scss
 
-When using custom theming both the `<div>` class in app.component.html AND the overlayContainer in app.module.ts must be edited to fully support light or dark themes (modals, menus, dialogs). 
+When using custom theming both the `<div>` class in app.component.html AND the overlayContainer in app.module.ts must be edited to fully support light or dark themes (modals, menus, dialogs).
 
 TODO: Include theme switching component/service which handles both
 
 ### AngularFire
+
 Requires author firebase config in environment.ts/environment.prod.ts
 
+### Google Analytics
+
+To properly track a single page application we subscribe to the Router events observable and send the pageview event to Google Analytics when a router event is emitted.
+
+This solution wholly provided by [Chidume Nnamdi](https://codeburst.io/using-google-analytics-with-angular-25c93bffaa18)
+
 ### Other
+
 * Material Icons - imported via styles.scss
 * Roboto Font (300,400,500) - imported via styles.scss
 * Animations
-* HammerJS -  for touch support on various components
+* HammerJS - for touch support on various components
 
 ## Versions
 
@@ -42,9 +51,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Assuming you have Node, NPM and the Angular CLI installed use the below where `<my-new-project-directory>` is the author specified name of the directory to be created to hold the clone.
 
-* `$ git clone https://github.com/SamScholefield/empty-project <my-new-project-directory>` 
+* `$ git clone https://github.com/SamScholefield/empty-project <my-new-project-directory>`
 * `$ cd <my-new-project-directory>`
 * `$ npm install`
 * `$ ng serve`
-
-
