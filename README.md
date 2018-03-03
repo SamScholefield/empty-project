@@ -1,27 +1,50 @@
 # EmptyProject
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.2.
+An empty project setup for quick start Angular 5 development. Incorporates the following:
 
-## Development server
+### Angular Material
+* Components are loaded from material.module.ts
+* Custom theming via custom-theme.scss
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+When using custom theming both the `<div>` class in app.component.html AND the overlayContainer in app.module.ts must be edited to fully support light or dark themes (modals, menus, dialogs). 
 
-## Code scaffolding
+TODO: Include theme switching component/service which handles both
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### AngularFire
+Requires author firebase config in environment.ts/environment.prod.ts
 
-## Build
+### Other
+* Material Icons - imported via styles.scss
+* Roboto Font (300,400,500) - imported via styles.scss
+* Animations
+* HammerJS -  for touch support on various components
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+## Versions
 
-## Running unit tests
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.2 and uses:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+* Angular CLI: 1.7.2
+* Node: 7.0.0
+* Angular: 5.2.7
+* @angular/cdk: 5.2.3
+* @angular/material: 5.2.3
+* @angular-devkit/build-optimizer: 0.3.2
+* @angular-devkit/core: 0.3.2
+* @angular-devkit/schematics: 0.3.2
+* @ngtools/json-schema: 1.2.0
+* @ngtools/webpack: 1.10.1
+* @schematics/angular: 0.3.2
+* @schematics/package-update: 0.3.2
+* typescript: 2.5.3
+* webpack: 3.11.0
 
-## Running end-to-end tests
+## To use
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Assuming you have Node, NPM and the Angular CLI installed use the below where `<my-new-project-directory>` is the author specified name of the directory to be created to hold the clone.
 
-## Further help
+* `$ git clone https://github.com/SamScholefield/empty-project <my-new-project-directory>` 
+* `$ cd <my-new-project-directory>`
+* `$ npm install`
+* `$ ng serve`
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
