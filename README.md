@@ -11,9 +11,10 @@ When using custom theming both the <div> class in app.component.html AND the ove
 Requires author firebase config in environment.ts/environment.prod.ts
 
 ### Other
-* Material Icons
-* Roboto Font (300,400,500)
-* Animations + HammerJS
+* Material Icons - imported via styles.scss
+* Roboto Font (300,400,500) - imported via styles.scss
+* Animations
+* HammerJS -  for touch support on various components
 
 ## Versions
 
