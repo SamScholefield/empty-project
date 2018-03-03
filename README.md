@@ -38,7 +38,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 * typescript: 2.5.3
 * webpack: 3.11.0
 
-## To clone
+## To use
 
 Use the below where `<my-new-project-directory>` is the author specified name of the directory to be created to hold the clone.
 
