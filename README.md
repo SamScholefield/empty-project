@@ -13,11 +13,13 @@ TODO: Include theme switching component/service which handles both
 
 ### AngularFire
 
-Requires author firebase config in environment.ts/environment.prod.ts
+Requires author firebase config in `environment.ts` and/or `environment.prod.ts`
 
 ### Google Analytics
 
 To properly track a single page application we subscribe to the Router events observable and send the pageview event to Google Analytics when a router event is emitted.
+
+Requires author GA tracking code in `index.html`
 
 This solution wholly provided by [Chidume Nnamdi](https://codeburst.io/using-google-analytics-with-angular-25c93bffaa18)
 
