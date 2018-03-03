@@ -1,0 +1,24 @@
+//core
+@import "~@angular/material/theming";
+@include mat-core();
+
+/*
+Reference color names from https://material.io/guidelines/style/color.html#color-color-palette
+*/
+
+//Custom theme 1 - default overrides 'core' theme set in styles.scss
+$custom1-primary: mat-palette($mat-blue);
+$custom1-accent: mat-palette($mat-amber);
+
+$custom1-theme: mat-light-theme($custom1-primary, $custom1-accent);
+@include angular-material-theme($custom1-theme);
+
+//Custom theme 2 - affects elements with class="custom2-theme"
+$custom2-primary: mat-palette($mat-deep-purple);
+$custom2-accent: mat-palette($mat-pink);
+
+$custom2-theme: mat-dark-theme($custom2-primary, $custom2-accent);
+
+.custom2-theme {
+  @include angular-material-theme($custom2-theme);
+}
