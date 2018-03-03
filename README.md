@@ -5,9 +5,10 @@ An empty project setup for quick start Angular 5 development. Incorporates the f
 ### Angular Material
 * Components are loaded from material.module.ts
 * Custom theming via custome-theme.scss
+When using custom theming both the <div> class in app.component.html AND the overlayContainer in app.module.ts must be edited to fully support light or dark themes (modals, menus, dialogs)
 
 ### AngularFire
-Requires firebase config in environment.ts/environment.prod.ts
+Requires author firebase config in environment.ts/environment.prod.ts
 
 ### Other
 * Material Icons
@@ -35,7 +36,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## To clone
 
-Use the below where `<my-new-project-directory>` is the user specified name of the directory to be created to hold the clone.
+Use the below where `<my-new-project-directory>` is the author specified name of the directory to be created to hold the clone.
 
 * `$ git clone https://github.com/SamScholefield/empty-project <my-new-project-directory>` 
 
