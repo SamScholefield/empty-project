@@ -3,35 +3,35 @@
 An empty project setup for quick start Angular 5 development. Incorporates the following:
 
 ### Angular Material
-Components are loaded from material.module.ts
-Custom theming via custome-theme.scss
+* Components are loaded from material.module.ts
+* Custom theming via custome-theme.scss
 
 ### AngularFire
 Requires firebase config in environment.ts/environment.prod.ts
 
 ### Other
-Material Icons
-Roboto Font (300,400,500)
-Animations + HammerJS
+* Material Icons
+* Roboto Font (300,400,500)
+* Animations + HammerJS
 
 ## Versions
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.2 and uses:
 
-Angular CLI: 1.7.2
-Node: 7.0.0
-Angular: 5.2.7
-@angular/cdk: 5.2.3
-@angular/material: 5.2.3
-@angular-devkit/build-optimizer: 0.3.2
-@angular-devkit/core: 0.3.2
-@angular-devkit/schematics: 0.3.2
-@ngtools/json-schema: 1.2.0
-@ngtools/webpack: 1.10.1
-@schematics/angular: 0.3.2
-@schematics/package-update: 0.3.2
-typescript: 2.5.3
-webpack: 3.11.0
+* Angular CLI: 1.7.2
+* Node: 7.0.0
+* Angular: 5.2.7
+* @angular/cdk: 5.2.3
+* @angular/material: 5.2.3
+* @angular-devkit/build-optimizer: 0.3.2
+* @angular-devkit/core: 0.3.2
+* @angular-devkit/schematics: 0.3.2
+* @ngtools/json-schema: 1.2.0
+* @ngtools/webpack: 1.10.1
+* @schematics/angular: 0.3.2
+* @schematics/package-update: 0.3.2
+* typescript: 2.5.3
+* webpack: 3.11.0
 
 ## To clone
 
