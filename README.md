@@ -35,6 +35,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## To clone
 
-Use `$ git clone https://github.com/SamScholefield/empty-project <my-new-project-directory>` where <my-new-project-directory> is the user specified name of the directory to be created to hold the clone.
+Use the below where `<my-new-project-directory>` is the user specified name of the directory to be created to hold the clone.
+
+* `$ git clone https://github.com/SamScholefield/empty-project <my-new-project-directory>` 
 
 
