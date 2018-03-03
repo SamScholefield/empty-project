@@ -6,7 +6,9 @@ An empty project setup for quick start Angular 5 development. Incorporates the f
 * Components are loaded from material.module.ts
 * Custom theming via custome-theme.scss
 
-When using custom theming both the <div> class in app.component.html AND the overlayContainer in app.module.ts must be edited to fully support light or dark themes (modals, menus, dialogs)
+When using custom theming both the `<div>` class in app.component.html AND the overlayContainer in app.module.ts must be edited to fully support light or dark themes (modals, menus, dialogs). 
+
+TODO: Include theme switching component/service which handles both
 
 ### AngularFire
 Requires author firebase config in environment.ts/environment.prod.ts
