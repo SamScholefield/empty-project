@@ -43,5 +43,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 Use the below where `<my-new-project-directory>` is the author specified name of the directory to be created to hold the clone.
 
 * `$ git clone https://github.com/SamScholefield/empty-project <my-new-project-directory>` 
+* `$ cd <my-new-project-directory>`
+* `$ npm install`
+* `$ ng serve`
 
 
