@@ -1,31 +1,40 @@
 # EmptyProject
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.2.
+An empty project setup for quick start Angular 5 development. Incorporates the following:
+
+### Angular Material
+Components are loaded from material.module.ts
+Custom theming via custome-theme.scss
+
+### AngularFire
+Requires firebase config in environment.ts/environment.prod.ts
+
+### Other
+Material Icons
+Roboto Font (300,400,500)
+Animations + HammerJS
+
+## Versions
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.2 and uses:
+
+Angular CLI: 1.7.2
+Node: 7.0.0
+Angular: 5.2.7
+@angular/cdk: 5.2.3
+@angular/material: 5.2.3
+@angular-devkit/build-optimizer: 0.3.2
+@angular-devkit/core: 0.3.2
+@angular-devkit/schematics: 0.3.2
+@ngtools/json-schema: 1.2.0
+@ngtools/webpack: 1.10.1
+@schematics/angular: 0.3.2
+@schematics/package-update: 0.3.2
+typescript: 2.5.3
+webpack: 3.11.0
 
 ## To clone
 
-Use `$ git clone https://github.com/SamScholefield/empty-project <my-new-project-directory>`
+Use `$ git clone https://github.com/SamScholefield/empty-project <my-new-project-directory>` where <my-new-project-directory> is the user specified name of the directory to be created to hold the clone.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
