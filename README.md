@@ -4,14 +4,21 @@ An empty project setup for quick start Angular 5 development. Incorporates the f
 
 ### Angular Material
 
-#### Custom theme and theme switching
+#### Component module
 
-* Components are loaded from `material.module.ts` (warning: bloated file)
-  Add and remove components as necessary
-* Custom theming via `custom-theme.scss`
-  Customise a light and a dark theme from this file. Currently, as theme switching is done on a checkbox, it is limited to default or option theme only
-* Theme switching on checkbox via `theming.component.ts` and `theming.service.ts`
-  This component can be placed anywhere (eg. `../users/:id/settings`) and will communicate the theme switch via service
+Components are loaded from `material.module.ts` (warning: bloated file). Add and remove components as necessary.
+
+#### Custom theme colors
+
+Custom theming color choice via `custom-theme.scss`. Customise a light and a dark theme from this file. Currently, as theme switching is done on a checkbox, it is limited to default or 1 option theme only.
+
+#### Custom theme switch
+
+Theme switching is done using a checkbox via `theming.component.ts` and `theming.service.ts` using `class={{themeClass}}` in the container element (`app.component.html`).
+
+`theming.component.ts` can be placed anywhere (eg. `../users/:id/settings`) and will communicate the theme switch via service.
+
+WARNING: This is my first service/observable/subscription and I can tell it's all sorts of wrong, but it works so hopefully it'll improve over time
 
 TODO: Get user theme preference on init
 
@@ -31,10 +38,21 @@ This solution wholly provided by [Chidume Nnamdi](https://codeburst.io/using-goo
 
 ### Other
 
-* Material Icons - imported via styles.scss
-* Roboto Font (300,400,500) - imported via styles.scss
-* Angular Animations
-* HammerJS - for touch support on various components
+#### Material Icons
+
+imported via `styles.scss`
+
+#### Roboto Font (300,400,500)
+
+imported via `styles.scss`
+
+#### Angular Animations
+
+imported via `app.module.ts`
+
+#### HammerJS
+
+imported via `main.ts` for touch support on various Material components
 
 ## Versions
 
