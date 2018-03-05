@@ -1,5 +1,10 @@
-<div class="custom2-theme">
+<div class="{{themeClass}}">
   <div class="mat-typography app-frame mat-app-background">
-    <router-outlet></router-outlet>
+    <div>
+      <app-theming></app-theming>
+    </div>
+    <div>
+      <router-outlet></router-outlet>
+    </div>
   </div>
 </div>

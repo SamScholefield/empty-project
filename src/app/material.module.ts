@@ -1,5 +1,5 @@
 import { NgModule } from "@angular/core";
-
+//WARNING - massively bloated file
 import {
   MatButtonModule,
   MatMenuModule,
@@ -19,7 +19,8 @@ import {
   MatTooltipModule,
   MatSliderModule,
   MatGridListModule,
-  MatStepperModule
+  MatStepperModule,
+  MatProgressBarModule
 } from "@angular/material";
 
 @NgModule({
@@ -41,7 +42,8 @@ import {
     MatTooltipModule,
     MatSliderModule,
     MatGridListModule,
-    MatStepperModule
+    MatStepperModule,
+    MatProgressBarModule
   ],
   exports: [
     MatButtonModule,
@@ -62,7 +64,8 @@ import {
     MatTooltipModule,
     MatSliderModule,
     MatGridListModule,
-    MatStepperModule
+    MatStepperModule,
+    MatProgressBarModule
   ]
 })
 export class MaterialModule {}

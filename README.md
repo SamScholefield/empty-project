@@ -4,16 +4,22 @@ An empty project setup for quick start Angular 5 development. Incorporates the f
 
 ### Angular Material
 
-* Components are loaded from material.module.ts
-* Custom theming via custom-theme.scss
+#### Custom theme and theme switching
 
-When using custom theming both the `<div>` class in app.component.html AND the overlayContainer in app.module.ts must be edited to fully support light or dark themes (modals, menus, dialogs).
+* Components are loaded from `material.module.ts` (warning: bloated file)
+  Add and remove components as necessary
+* Custom theming via `custom-theme.scss`
+  Customise a light and a dark theme from this file. Currently, as theme switching is done on a checkbox, it is limited to default or option theme only
+* Theme switching on checkbox via `theming.component.ts` and `theming.service.ts`
+  This component can be placed anywhere (eg. `../users/:id/settings`) and will communicate the theme switch via service
 
-TODO: Include theme switching component/service which handles both
+TODO: Get user theme preference on init
 
 ### AngularFire
 
 Requires author firebase config in `environment.ts` and/or `environment.prod.ts`
+
+TODO: build emptyProject with firebase.auth and guarded routes
 
 ### Google Analytics
 
@@ -27,7 +33,7 @@ This solution wholly provided by [Chidume Nnamdi](https://codeburst.io/using-goo
 
 * Material Icons - imported via styles.scss
 * Roboto Font (300,400,500) - imported via styles.scss
-* Animations
+* Angular Animations
 * HammerJS - for touch support on various components
 
 ## Versions

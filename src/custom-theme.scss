@@ -6,7 +6,7 @@
 Reference color names from https://material.io/guidelines/style/color.html#color-color-palette
 */
 
-//Custom theme 1 - default overrides 'core' theme set in styles.scss
+//Default custom theme overrides the initial theme set in styles.scss
 $custom1-primary: mat-palette($mat-blue);
 $custom1-accent: mat-palette($mat-amber);
 
